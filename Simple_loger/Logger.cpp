@@ -2,8 +2,8 @@
 
 Logger& Logger::getInstance()
 {
-	 static Logger instance;
-	return instance;
+    static Logger instance;
+    return instance;
 }
 
 void Logger::Log(mType Type, const std::string message)
